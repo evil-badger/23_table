@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 10px;
+ 
+}
+
+
+table{
+  border: 1px solid black;
+  padding: 0px 5px;
+}
+
+table td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px 10px;
+}
+
+.flexRows{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px
+}
+
+
+.flexColumns{
+  display: flex;
+  gap:5px;
+}
+.buttonContainer{
+  display: flex;
+  gap:10px;
+}
+
+button {
+  max-width: 200px; /* Здесь указываете нужную вам максимальную ширину */
+}
